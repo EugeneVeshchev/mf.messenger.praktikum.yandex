@@ -1,0 +1,30 @@
+.link {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: var(--typography-h3-font-size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--gap-8);
+
+    &_primary {
+        color: var(--colors-blue)
+    }
+    &_secondary {
+        color: var(--colors-blue-2)
+    }
+    &_error {
+        color: var(--colors-red)
+    }
+
+    &__icon {
+        color: inherit;
+    }
+    &__icon_left {
+        margin-right: var(--gap-4);
+    }
+    &__icon_right {
+        margin-left: var(--gap-4);
+    }
+
+}
